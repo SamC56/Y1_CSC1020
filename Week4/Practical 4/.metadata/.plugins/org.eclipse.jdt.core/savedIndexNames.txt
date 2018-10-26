@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+I:\CSC1020\Eclipse\Practical 4\.metadata\.plugins\org.eclipse.jdt.core
+4071141539.index
+466294166.index
+4174335471.index

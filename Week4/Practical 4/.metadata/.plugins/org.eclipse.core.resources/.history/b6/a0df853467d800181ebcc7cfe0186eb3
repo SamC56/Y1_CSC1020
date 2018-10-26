@@ -1,0 +1,37 @@
+package mobileApp;
+
+public class MobileTester {
+
+	public static void main(String[] args) {
+		Mobile jimMobile = new Mobile("PAYG", "iPhone 7", "07712442442");
+		System.out.println("Account Type: " + jimMobile.getAccType());
+		System.out.println("Device: " + jimMobile.getDevice());
+		System.out.println("Number: " + jimMobile.getNumber());
+		System.out.println("Balance: " + jimMobile.getBalance());
+		
+		jimMobile.addCredit(10.00);
+		System.out.println("\nCredit Sucessful for \n Number: " + jimMobile.getNumber() + "\n Balance: " +jimMobile.getBalance());
+		
+		jimMobile.makeCall(15);
+		System.out.println("\nCall made for \n Number: " + jimMobile.getNumber() + "\n Balance: " + jimMobile.getBalance());
+		
+		jimMobile.sendText(2);
+		System.out.println("\nText sent for \n Number: " + jimMobile.getNumber() + "\n Balance: " + jimMobile.getBalance());
+
+		
+		Mobile samMobile = new Mobile("PAYG", "Mi A1", "07512466231");
+		samMobile.addCredit(251);
+		System.out.println("\nCredit Sucessful for \n Number: " + samMobile.getNumber() + "\n Balance: " +samMobile.getBalance());
+		
+		samMobile.makeCall(155);
+		System.out.println("\nCall made for \n Number: " + samMobile.getNumber() + "\n Balance: " + samMobile.getBalance());
+		
+		samMobile.sendText(22);
+		System.out.println("\nText sent for \n Number: " + samMobile.getNumber() + "\n Balance: " + samMobile.getBalance());
+
+		samMobile.streamMusic(200);
+		System.out.println("\nMusic streamed for \n Number: " + samMobile.getNumber() + "\n Balance: " + samMobile.getBalance());
+
+		
+	}
+}

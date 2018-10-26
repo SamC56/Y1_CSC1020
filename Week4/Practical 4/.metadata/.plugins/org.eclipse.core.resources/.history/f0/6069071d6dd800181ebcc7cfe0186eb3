@@ -1,0 +1,13 @@
+package practical4;
+
+public class CarInsurance {
+	
+	enum coverage {COMPREHENSIVE, THIRD_PARTY_FIRE_AND_THEFT, THIRD_PARTY} 
+	
+	public static void main(String[] args) {
+		double insuranceCost = 200.00;
+		
+
+	}
+
+}
