@@ -3,6 +3,10 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="Week4/Practical 4/src"/>
 	<classpathentry kind="src" path="Week5/src"/>
+<<<<<<< HEAD
 	<classpathentry kind="src" path="Week7/test"/>
+=======
+	<classpathentry kind="src" path="Week07"/>
+>>>>>>> a0cac050a7f6def12e8bc0f17523f9749f234242
 	<classpathentry kind="output" path="bin"/>
 </classpath>
